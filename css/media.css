@@ -1,0 +1,599 @@
+@media (max-width: 1300px) {
+
+  .container {
+    padding: 0 50px;
+    max-width: 1024px;
+  }
+
+  .header__container {
+    padding-top: 32px;
+    padding-bottom: 14px;
+    flex-wrap: wrap;
+  }
+
+  .header__logo {
+    margin-bottom: 20px;
+  }
+
+  .header__logo img {
+    width: 187.6px;
+  }
+
+  .header__nav {
+    width: 100%;
+    order: 3;
+    margin-left: 0;
+  }
+
+  .nav__list {
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+    gap: 96px;
+  }
+
+  .header__search {
+    align-items: flex-start;
+  }
+
+  .hero {
+    background: url(../img/hero-background-1024.jpg) no-repeat top / cover;
+  }
+
+  .hero__content {
+    padding: 102px 0 102px 0;
+    max-width: 656px;
+  }
+
+  .hero__title {
+    margin-bottom: 18px;
+    max-width: 603px;
+  }
+
+  .hero__descr {
+    margin-bottom: 133px;
+  }
+
+  .about-us {
+    margin-bottom: 70px;
+  }
+
+  .about-us__text {
+    line-height: 32px;
+  }
+
+  .gallery__content {
+    flex-direction: column;
+  }
+
+  .gallery__left {
+    margin-bottom: 28px;
+  }
+
+  .right__item {
+    width: 274px;
+    height: 274px;
+  }
+
+  .catalog {
+    margin-bottom: 80px;
+  }
+
+  .catalog__title {
+    margin-bottom: 17px;
+    ;
+  }
+
+  .catalog__suptitle {
+    margin-bottom: 39px;
+  }
+
+  .catalog__item:not(:last-child) {
+    margin-bottom: 48px;
+  }
+
+  .catalog__item {
+    padding-left: 0;
+    flex-direction: column;
+  }
+
+  .catalog__image {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .catalog__item_1 {
+    background: url(../img/catalog-img1.jpg) no-repeat top / 100%;
+  }
+
+  .catalog__item_2 {
+    background: url(../img/catalog-img2.jpg) no-repeat top / 100%;
+  }
+
+  .catalog__item_3 {
+    background: url(../img/catalog-img3.jpg) no-repeat top / 100%;
+  }
+
+  .catalog__content {
+    gap: 0;
+  }
+
+  .catalog__text {
+    line-height: 33px;
+  }
+
+  .events__list {
+    gap: 26px;
+  }
+
+  .events__content {
+    padding: 15px 29px 47px 33px;
+}
+
+  .item__descr {
+    text-align: right;
+    margin-bottom: 6px;
+  }
+
+  .item__title {
+    line-height: 33px;
+    margin-bottom: 7px;
+  }
+
+  .item__top {
+    min-height: 385px;
+  }
+
+  .proects {
+    margin-bottom: 121px;
+  }
+
+  .proects__title {
+    margin-bottom: 16px;
+  }
+
+  .proects__text {
+    margin-bottom: 21px;
+  }
+
+  .left__title {
+    margin-bottom: 9px;
+  }
+
+  .form {
+    margin-bottom: 40px;
+  }
+
+  .form__left {
+    margin-bottom: 31px;
+  }
+
+  .form__middle {
+    margin-right: 0;
+    padding-top: 0;
+    margin-bottom: 30px;
+  }
+
+  .form__input {
+    width: 270px;
+  }
+
+  .form__btn {
+    padding: 11px 41px;
+  }
+
+  .right__text {
+    margin-bottom: 6px;
+  }
+
+  .footer__container {
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+
+  .footer__vk {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+  }
+
+  .footer__ok {
+    width: 60px;
+    height: 60px;
+  }
+
+}
+
+@media (max-width: 1023px) {
+  .nav__list {
+    gap: 44px;
+  }
+
+  .hero {
+    background: url(../img/hero-background-768.jpg) no-repeat top / cover;
+  }
+
+  .hero__content {
+    padding: 88px 0 86px 0;
+    max-width: 563px;
+  }
+
+  .middle__form {
+    flex-wrap: wrap;
+  }
+
+  .right__item {
+    width: 199px;
+    height: 199px;
+  }
+
+  .gallery__right {
+    gap: 35px;
+  }
+
+  .gallery__content {
+    justify-content: flex-start;
+    min-height: 403px;
+  }
+
+  .catalog__item:not(:last-child) {
+    margin-bottom: 51px;
+  }
+
+  .catalog__descr {
+    margin-bottom: 7px;
+  }
+
+  .catalog__text {
+    line-height: 32px;
+  }
+
+  .events__list {
+    gap: 26px;
+    flex-direction: column;
+  }
+
+  .events__img img {
+    width: 100%;
+  }
+
+  .events__item {
+    width: 100%;
+  }
+
+  .events__list {
+    gap: 30px;
+  }
+
+  .item__top {
+    min-height: 231px;
+}
+
+  .item__title {
+    margin-bottom: 13px;
+  }
+
+  .proects__text {
+    margin-bottom: 28px;
+  }
+
+  .proects__descr {
+    margin-bottom: 29px;
+  }
+
+  .proects__partners {
+    margin-right: 0;
+  }
+
+  .proects__partners:not(:last-child) {
+    margin-right: 34px;
+  }
+
+  .form {
+    margin-bottom: 45px;
+}
+
+  .form__input {
+    width: 324px;
+  }
+
+  .form__input:not(:last-child) {
+    margin-right: 4px;
+  }
+
+  .form__btn {
+    padding: 11px 28px;
+  }
+
+  .middle__form {
+    gap: 12px;
+  }
+
+}
+
+@media (max-width: 767px) {
+  .container {
+    padding: 0 15px;
+  }
+
+  .container__title {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .header__container {
+    padding-top: 16px;
+  }
+
+  .header__logo {
+    width: 34%;
+  }
+
+  .nav__list {
+    overflow-x: scroll;
+    font-size: 12px;
+  }
+
+  .nav__list::-webkit-scrollbar {
+    display: none;
+  }
+
+  .search__btn {
+    width: 18px;
+  }
+
+  .hero {
+    margin-bottom: 59px;
+    background: url(../img/hero-background-320.jpg) no-repeat bottom / cover;
+  }
+
+  .hero__title {
+    font-size: 31px;
+    line-height: 28px;
+    margin-bottom: 8px;
+  }
+
+  .hero__content {
+    padding: 49px 0 50px 0;
+    text-align: center;
+  }
+
+  .hero__descr {
+    font-size: 13px;
+    line-height: 17px;
+    margin-bottom: 39px;
+  }
+
+  .hero__btn {
+    font-size: 12px;
+    padding: 7px 20px;
+  }
+
+  .about-us {
+    margin-bottom: 42px;
+  }
+
+  .about-us__title {
+    margin-bottom: 20px;
+  }
+
+  .about-us__text {
+    line-height: 28px;
+    letter-spacing: -0.5px;
+  }
+
+  .gallery {
+    margin-bottom: 59px;
+  }
+
+  .gallery__title {
+    padding-top: 59px;
+  }
+
+  .gallery__title {
+    margin-bottom: 22px;
+  }
+
+  .gallery__input+label::before {
+    width: 0.7em;
+    height: 0.7em;
+    margin-right: 12px;
+  }
+
+  .gallery__content {
+    padding-bottom: 50px;
+  }
+
+  .gallery__left {
+    margin-bottom: 30px;
+  }
+
+  .gallery__right {
+    gap: 30px;
+  }
+
+  .right__item {
+    width: 290px;
+    height: 290px;
+  }
+
+  .catalog {
+    margin-bottom: 57px;
+  }
+
+  .catalog__title {
+    margin-bottom: 21px;
+  }
+
+  .catalog__suptitle {
+    margin-bottom: 29px;
+  }
+
+  .catalog__item:not(:last-child) {
+    margin-bottom: 29px;
+}
+
+  .catalog__name {
+    line-height: 29px;
+    letter-spacing: 0.1px;
+  }
+
+  .catalog__image {
+    margin-bottom: 21px;
+}
+
+  .catalog__descr {
+    margin-bottom: 13px;
+  }
+
+  .events {
+    margin-bottom: 61px;
+  }
+
+  .events__title {
+    margin-bottom: 21px;
+  }
+
+  .events__content {
+    padding: 18px 22px 46px;
+  }
+
+  .item__descr {
+    margin-bottom: 12px;
+  }
+
+  .item__title {
+    margin-bottom: 5px;
+  }
+
+  .item__top {
+    min-height: 382px;
+  }
+
+  .item__bottom {
+    padding-left: 6px;
+  }
+
+  .events__list {
+    gap: 21px;
+  }
+
+  .proects {
+    margin-bottom: 46px;
+  }
+
+  .proects__title {
+    margin-bottom: 21px;
+  }
+
+  .proects__text {
+    margin-bottom: 20px;
+  }
+
+  .proects__descr {
+    font-size: 18px;
+    margin-bottom: 11px;
+  }
+
+  .proects__box {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .proects__partners {
+    margin: 0;
+    width: 290px;
+    height: 100px;
+    background: url(../img/partners-320.svg) no-repeat center / contain;
+  }
+
+  .proects__partners_two {
+    width: 290px;
+    height: 100px;
+    background: url(../img/partners2-320.svg) no-repeat center / contain;
+  }
+
+  .left__title {
+    font-size: 18px;
+    margin-bottom: 2px;
+  }
+
+  .left__text {
+    font-size: 14px;
+    letter-spacing: -0.4px;
+  }
+
+  .form {
+    margin-bottom: 50px;
+  }
+
+  .form__left {
+    margin-bottom: 21px;
+  }
+
+  .form__input {
+    width: 290px;
+  }
+
+  .form__input {
+    padding: 10px 24px;
+  }
+
+  .middle__form {
+    gap: 20px;
+  }
+
+  .form__btn {
+    font-size: 11px;
+    padding: 11px 65px;
+  }
+
+  .right__text {
+    font-size: 18px;
+    line-height: 13px;
+    margin-bottom: 16px;
+  }
+
+  .social__whatsapp {
+    margin-right: 21px;
+    transition: opacity .3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    background: url(../img/Whatsapp-Icon-320.svg) no-repeat center / contain;
+  }
+
+  .social__telegram {
+    transition: opacity .3s ease-in-out;
+    width: 50px;
+    height: 50px;
+    background: url(../img/Telegram_Logo-320.svg) no-repeat center / contain;
+  }
+
+  .footer__container {
+    flex-direction: column-reverse;
+  }
+
+  .footer__right {
+    padding-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .footer__vk {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__ok {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer__left {
+    margin-bottom: 20px;
+    width: 97px;
+    height: 22px;
+    background: url(../img/footer-logo320.svg) no-repeat center / contain;
+  }
+
+}
